@@ -1,0 +1,14 @@
+ssh-keygen -t  rsa
+  544  clear
+  545  cat id_rsa.pub >>authorized_keys
+  546  rm id_rsa.pub 
+  547  clear
+  548  ls
+  549  history 
+
+Client:..
+
+  550  scp root@192.168.100.2:~/.ssh/id_rsa /root/.ssh/
+  551  ssh 192.168.100.2
+  552  clear
+

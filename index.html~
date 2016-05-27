@@ -1,0 +1,16 @@
+<html>
+<head>
+</head>
+<body>
+	<div id='main'>
+	<form action="replicast.php" method='POST' enctype='multipart/form-data'>
+	<fieldset>
+	<table>
+			<tr><td>Upload File:</td><td>  <input type="file" name='photo' /></td></tr>
+
+	</table>
+<input type="submit" value="Submit" /><br />
+</center>
+</form>
+</body>
+</html>
